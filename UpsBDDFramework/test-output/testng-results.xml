@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="99953" started-at="2020-05-26T17:18:23 EDT" finished-at="2020-05-26T17:20:03 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ups.com.runners.UpsRunner@1877ab81]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="99953" started-at="2020-05-26T17:18:23 EDT" finished-at="2020-05-26T17:20:03 EDT">
+      <class name="ups.com.runners.UpsRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ups.com.runners.UpsRunner@1877ab81]" name="setUpClass" is-config="true" duration-ms="166" started-at="2020-05-26T17:18:23 EDT" finished-at="2020-05-26T17:18:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ups.com.runners.UpsRunner@1877ab81]" name="feature" duration-ms="47104" started-at="2020-05-26T17:18:23 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-26T17:19:11 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Track Item, look for Shipment Progress and Proof of delivery.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:ups.com.runners.UpsRunner@1877ab81]" name="feature" duration-ms="52385" started-at="2020-05-26T17:19:11 EDT" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-05-26T17:20:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UPS Log In Track Item and Log Out]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ups.com.runners.UpsRunner@1877ab81]" name="tearDownClass" is-config="true" duration-ms="211" started-at="2020-05-26T17:20:03 EDT" finished-at="2020-05-26T17:20:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ups.com.runners.UpsRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
